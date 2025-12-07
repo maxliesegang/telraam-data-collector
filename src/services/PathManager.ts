@@ -22,6 +22,13 @@ export class PathManager {
   }
 
   /**
+   * Get the hourly data directory for a device
+   */
+  getHourlyDirectory(deviceId: string): string {
+    return path.join(this.getDeviceDirectory(deviceId), FILESYSTEM.HOURLY_DIR);
+  }
+
+  /**
    * Get the hourly data file path for a specific month
    */
   getHourlyFilePath(deviceId: string, month: string): string {

@@ -14,6 +14,7 @@ import type {
   TrafficDataPoint,
 } from '../types.js';
 import { createLogger, LOG_NAMESPACES } from '../utils/index.js';
+import { isFileSystemError } from '../utils/validation.js';
 import { FileService } from './FileService.js';
 import { DataMerger } from './DataMerger.js';
 import { PathManager } from './PathManager.js';
@@ -196,6 +197,37 @@ export class Storage {
    */
   groupDataByMonth(data: TrafficDataPoint[]): Map<string, TrafficDataPoint[]> {
     return this.dataMerger.groupByMonth(data);
+  }
+
+  /**
+   * Calculate total hourly data points stored for a device across all months
+   */
+  async getTotalHourlyDataPoints(deviceId: string): Promise<number> {
+    const hourlyDir = this.pathManager.getHourlyDirectory(deviceId);
+    let files: string[];
+
+    try {
+      files = await this.fileService.collectJsonFiles(hourlyDir);
+    } catch (error) {
+      if (isFileSystemError(error) && error.code === 'ENOENT') {
+        return 0;
+      }
+      throw error;
+    }
+
+    let total = 0;
+    for (const filePath of files) {
+      const monthlyData = await this.fileService.readJson<MonthlyData>(
+        filePath,
+        `loading monthly data for device ${deviceId} while computing totals`,
+      );
+
+      if (monthlyData?.data) {
+        total += monthlyData.data.length;
+      }
+    }
+
+    return total;
   }
 
   /**

@@ -76,6 +76,8 @@ export class DataCollector {
       const result = await this.collectSingleDevice(device);
       results.push(result);
 
+      const totalStoredPoints = await this.storage.getTotalHourlyDataPoints(device.id);
+
       // Create metadata entry
       deviceMetadata.push({
         id: device.id,
@@ -85,7 +87,7 @@ export class DataCollector {
           result.lastUpdated ??
           previousMetadataById.get(device.id)?.lastUpdated ??
           new Date().toISOString(),
-        totalDataPoints: result.dataPointsCollected,
+        totalDataPoints: totalStoredPoints,
       });
 
       // Add delay between devices (except after the last one)
