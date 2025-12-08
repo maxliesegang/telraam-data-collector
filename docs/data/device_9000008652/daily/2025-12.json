@@ -1,0 +1,183 @@
+{
+  "device_id": "9000008652",
+  "month": "2025-12",
+  "days": [
+    {
+      "date": "2025-12-01",
+      "totals": {
+        "hours": 24,
+        "heavy": 25,
+        "car": 30,
+        "bike": 15,
+        "pedestrian": 16,
+        "night": 63,
+        "heavy_lft": 14,
+        "heavy_rgt": 11,
+        "car_lft": 18,
+        "car_rgt": 12,
+        "bike_lft": 11,
+        "bike_rgt": 4,
+        "pedestrian_lft": 7,
+        "pedestrian_rgt": 9,
+        "night_lft": 32,
+        "night_rgt": 31,
+        "uptime_avg": 0.9995254629499999
+      }
+    },
+    {
+      "date": "2025-12-02",
+      "totals": {
+        "hours": 24,
+        "heavy": 17,
+        "car": 37,
+        "bike": 17,
+        "pedestrian": 28,
+        "night": 63,
+        "heavy_lft": 10,
+        "heavy_rgt": 7,
+        "car_lft": 16,
+        "car_rgt": 21,
+        "bike_lft": 6,
+        "bike_rgt": 11,
+        "pedestrian_lft": 14,
+        "pedestrian_rgt": 14,
+        "night_lft": 36,
+        "night_rgt": 27,
+        "uptime_avg": 0.9996759259041664
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "totals": {
+        "hours": 24,
+        "heavy": 16,
+        "car": 27,
+        "bike": 8,
+        "pedestrian": 21,
+        "night": 70,
+        "heavy_lft": 10,
+        "heavy_rgt": 6,
+        "car_lft": 9,
+        "car_rgt": 18,
+        "bike_lft": 3,
+        "bike_rgt": 5,
+        "pedestrian_lft": 9,
+        "pedestrian_rgt": 12,
+        "night_lft": 39,
+        "night_rgt": 31,
+        "uptime_avg": 0.9995949073875002
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "totals": {
+        "hours": 24,
+        "heavy": 16,
+        "car": 29,
+        "bike": 33,
+        "pedestrian": 34,
+        "night": 73,
+        "heavy_lft": 11,
+        "heavy_rgt": 5,
+        "car_lft": 14,
+        "car_rgt": 15,
+        "bike_lft": 14,
+        "bike_rgt": 19,
+        "pedestrian_lft": 14,
+        "pedestrian_rgt": 20,
+        "night_lft": 37,
+        "night_rgt": 36,
+        "uptime_avg": 0.9994328703500002
+      }
+    },
+    {
+      "date": "2025-12-05",
+      "totals": {
+        "hours": 24,
+        "heavy": 24,
+        "car": 35,
+        "bike": 19,
+        "pedestrian": 24,
+        "night": 80,
+        "heavy_lft": 15,
+        "heavy_rgt": 9,
+        "car_lft": 14,
+        "car_rgt": 21,
+        "bike_lft": 10,
+        "bike_rgt": 9,
+        "pedestrian_lft": 12,
+        "pedestrian_rgt": 12,
+        "night_lft": 37,
+        "night_rgt": 43,
+        "uptime_avg": 0.9994791666416668
+      }
+    },
+    {
+      "date": "2025-12-06",
+      "totals": {
+        "hours": 24,
+        "heavy": 16,
+        "car": 48,
+        "bike": 13,
+        "pedestrian": 13,
+        "night": 66,
+        "heavy_lft": 12,
+        "heavy_rgt": 4,
+        "car_lft": 25,
+        "car_rgt": 23,
+        "bike_lft": 4,
+        "bike_rgt": 9,
+        "pedestrian_lft": 4,
+        "pedestrian_rgt": 9,
+        "night_lft": 37,
+        "night_rgt": 29,
+        "uptime_avg": 0.9994560185000001
+      }
+    },
+    {
+      "date": "2025-12-07",
+      "totals": {
+        "hours": 24,
+        "heavy": 12,
+        "car": 25,
+        "bike": 2,
+        "pedestrian": 6,
+        "night": 45,
+        "heavy_lft": 4,
+        "heavy_rgt": 8,
+        "car_lft": 11,
+        "car_rgt": 14,
+        "bike_lft": 2,
+        "bike_rgt": 0,
+        "pedestrian_lft": 4,
+        "pedestrian_rgt": 2,
+        "night_lft": 22,
+        "night_rgt": 23,
+        "uptime_avg": 0.9994328703416668
+      }
+    },
+    {
+      "date": "2025-12-08",
+      "totals": {
+        "hours": 7,
+        "heavy": 0,
+        "car": 0,
+        "bike": 0,
+        "pedestrian": 0,
+        "night": 25,
+        "heavy_lft": 0,
+        "heavy_rgt": 0,
+        "car_lft": 0,
+        "car_rgt": 0,
+        "bike_lft": 0,
+        "bike_rgt": 0,
+        "pedestrian_lft": 0,
+        "pedestrian_rgt": 0,
+        "night_lft": 8,
+        "night_rgt": 17,
+        "uptime_avg": 0.9993253968142858
+      }
+    }
+  ],
+  "lastUpdated": "2025-12-08T08:05:56.775Z"
+}

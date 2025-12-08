@@ -33,18 +33,23 @@ function resolveRequestDelay(envValue: string | undefined): number {
 export const devices: DeviceConfig[] = [
   {
     id: '9000008311',
-    name: 'Telraam 9000008311',
+    name: 'Sophienstraße',
     location: 'Karlsruhe, Germany',
   },
   {
     id: '9000008322',
-    name: 'Telraam 9000008322',
+    name: 'Georg-Friedrich-Straße',
     location: 'Karlsruhe, Germany',
   },
   {
     id: '9000008891',
     name: 'Telraam 9000008891',
-    location: 'Karlsruhe, Germany',
+    location: 'Rheinstetten, Germany',
+  },
+  {
+    id: '9000008652',
+    name: 'Telraam 9000008652',
+    location: 'Rheinstetten, Germany',
   },
 ];
 
