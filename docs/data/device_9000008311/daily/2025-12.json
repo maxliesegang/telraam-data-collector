@@ -81,7 +81,7 @@
     {
       "date": "2025-12-05",
       "totals": {
-        "hours": 24,
+        "hours": 20,
         "heavy": 265.3922769197,
         "car": 1131.931397779,
         "bike": 856.4764061110999,
@@ -94,7 +94,7 @@
         "bike_rgt": 129.9104461925,
         "pedestrian_lft": 192.89041165659998,
         "pedestrian_rgt": 24.606160940200002,
-        "uptime_avg": 0.2564467592583333
+        "uptime_avg": 0.30773611111
       }
     },
     {
@@ -119,22 +119,41 @@
     {
       "date": "2025-12-07",
       "totals": {
-        "hours": 8,
-        "heavy": 3.1484847426,
-        "car": 16.9986240049,
-        "bike": 2.4917802865,
-        "pedestrian": 3.7540523762,
-        "heavy_lft": 1.9189765458,
-        "heavy_rgt": 1.2295081967,
-        "car_lft": 8.2282471627,
-        "car_rgt": 8.7703768423,
-        "bike_lft": 1.2622720898,
-        "bike_rgt": 1.2295081967,
-        "pedestrian_lft": 2.4917802865,
-        "pedestrian_rgt": 1.2622720898,
-        "uptime_avg": 0.071875
+        "hours": 24,
+        "heavy": 67.09281036600001,
+        "car": 627.0706508313,
+        "bike": 295.71897068530006,
+        "pedestrian": 100.60808747440001,
+        "heavy_lft": 27.777495989300004,
+        "heavy_rgt": 39.3153143765,
+        "car_lft": 252.3545249591,
+        "car_rgt": 374.7161258724,
+        "bike_lft": 226.203547452,
+        "bike_rgt": 69.5154232334,
+        "pedestrian_lft": 85.2143927278,
+        "pedestrian_rgt": 15.3936947467,
+        "uptime_avg": 0.2594328703666667
+      }
+    },
+    {
+      "date": "2025-12-08",
+      "totals": {
+        "hours": 3,
+        "heavy": 0,
+        "car": 0,
+        "bike": 0,
+        "pedestrian": 0,
+        "heavy_lft": 0,
+        "heavy_rgt": 0,
+        "car_lft": 0,
+        "car_rgt": 0,
+        "bike_lft": 0,
+        "bike_rgt": 0,
+        "pedestrian_lft": 0,
+        "pedestrian_rgt": 0,
+        "uptime_avg": 0
       }
     }
   ],
-  "lastUpdated": "2025-12-07T08:47:16.710Z"
+  "lastUpdated": "2025-12-08T03:22:49.970Z"
 }
