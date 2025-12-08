@@ -40,6 +40,7 @@ async function main(): Promise<void> {
       storage,
       devices,
       daysToFetch: config.daysToFetch,
+      initialDaysToFetch: config.initialDaysToFetch,
       requestDelayMs: config.requestDelayMs,
     });
 

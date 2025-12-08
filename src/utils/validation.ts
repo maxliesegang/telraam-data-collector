@@ -89,11 +89,13 @@ export function validateConfiguration(config: {
   apiKey: string | undefined;
   devices: DeviceConfig[];
   daysToFetch: number;
+  initialDaysToFetch: number;
 }): ValidationResult {
   const results = [
     validateApiKey(config.apiKey),
     validateDevices(config.devices),
     validateDaysToFetch(config.daysToFetch),
+    validateDaysToFetch(config.initialDaysToFetch),
   ];
 
   const allErrors = results.flatMap((r) => r.errors);

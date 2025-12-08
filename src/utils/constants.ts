@@ -65,7 +65,10 @@ export const FILESYSTEM = {
  */
 export const COLLECTION = {
   /** Default number of days to fetch */
-  DEFAULT_DAYS_TO_FETCH: 31,
+  DEFAULT_DAYS_TO_FETCH: 3,
+
+  /** Default number of days to fetch on first run when no data exists */
+  DEFAULT_INITIAL_DAYS_TO_FETCH: 90,
 
   /** Minimum days to fetch */
   MIN_DAYS_TO_FETCH: 1,

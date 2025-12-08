@@ -31,6 +31,8 @@ export interface CollectorConfig {
   devices: DeviceConfig[];
   /** Number of days to fetch (counting back from today) */
   daysToFetch: number;
+  /** Number of days to fetch when no data exists for a device */
+  initialDaysToFetch: number;
   /** Delay between device requests in milliseconds */
   requestDelayMs: number;
 }
@@ -43,6 +45,7 @@ export class DataCollector {
   private readonly storage: Storage;
   private readonly devices: DeviceConfig[];
   private readonly daysToFetch: number;
+  private readonly initialDaysToFetch: number;
   private readonly requestDelayMs: number;
 
   constructor(config: CollectorConfig) {
@@ -50,6 +53,7 @@ export class DataCollector {
     this.storage = config.storage;
     this.devices = config.devices;
     this.daysToFetch = config.daysToFetch;
+    this.initialDaysToFetch = config.initialDaysToFetch;
     this.requestDelayMs = config.requestDelayMs;
   }
 
@@ -61,7 +65,9 @@ export class DataCollector {
     const startTime = new Date();
 
     logger.info(`Starting data collection for ${this.devices.length} devices`);
-    logger.info(`Fetching last ${this.daysToFetch} days of data`);
+    logger.info(
+      `Fetching last ${this.daysToFetch} days (initial fetch: ${this.initialDaysToFetch} days)`,
+    );
     if (this.requestDelayMs > 0) {
       logger.info(`Request delay: ${this.requestDelayMs}ms between devices`);
     }
@@ -122,7 +128,16 @@ export class DataCollector {
     logger.info(`Processing device: ${device.name} (${device.id})`);
 
     try {
-      const dateRange = calculateDateRange(this.daysToFetch);
+      const existingDataPoints = await this.storage.getTotalHourlyDataPoints(device.id);
+      const daysToFetch = existingDataPoints > 0 ? this.daysToFetch : this.initialDaysToFetch;
+
+      if (existingDataPoints === 0) {
+        logger.info(
+          `No existing data for device ${device.id}; using initial fetch window of ${this.initialDaysToFetch} days`,
+        );
+      }
+
+      const dateRange = calculateDateRange(daysToFetch);
       const dataPoints = await this.client.fetchTrafficData(device.id, dateRange);
       const lastDataTimestamp = this.getLatestDataTimestamp(dataPoints);
 

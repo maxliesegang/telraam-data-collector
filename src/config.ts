@@ -7,15 +7,16 @@ export interface AppConfig {
   apiKey: string;
   dataDir: string;
   daysToFetch: number;
+  initialDaysToFetch: number;
   requestDelayMs: number;
 }
 
-function resolveDaysToFetch(envValue: string | undefined): number {
+function resolveDaysToFetch(envValue: string | undefined, defaultValue: number): number {
   const parsed = envValue ? Number.parseInt(envValue, 10) : Number.NaN;
   if (Number.isFinite(parsed)) {
     return Math.min(Math.max(parsed, COLLECTION.MIN_DAYS_TO_FETCH), COLLECTION.MAX_DAYS_TO_FETCH);
   }
-  return COLLECTION.DEFAULT_DAYS_TO_FETCH;
+  return defaultValue;
 }
 
 function resolveRequestDelay(envValue: string | undefined): number {
@@ -52,7 +53,14 @@ export const devices: DeviceConfig[] = [
  * This function is called after dotenv.config() to ensure env vars are loaded
  */
 export function loadConfig(env: NodeJS.ProcessEnv = process.env): AppConfig {
-  const daysToFetch = resolveDaysToFetch(env.TELRAAM_DAYS_TO_FETCH);
+  const daysToFetch = resolveDaysToFetch(
+    env.TELRAAM_DAYS_TO_FETCH,
+    COLLECTION.DEFAULT_DAYS_TO_FETCH,
+  );
+  const initialDaysToFetch = resolveDaysToFetch(
+    env.TELRAAM_INITIAL_DAYS_TO_FETCH,
+    COLLECTION.DEFAULT_INITIAL_DAYS_TO_FETCH,
+  );
   const requestDelayMs = resolveRequestDelay(env.TELRAAM_REQUEST_DELAY_MS);
 
   const config: AppConfig = {
@@ -61,6 +69,7 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): AppConfig {
     // Store under docs so GitHub Pages can serve the JSON output from the default docs root
     dataDir: FILESYSTEM.DATA_DIR,
     daysToFetch,
+    initialDaysToFetch,
     requestDelayMs,
   };
 
@@ -68,6 +77,7 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): AppConfig {
     apiKey: config.apiKey,
     devices,
     daysToFetch: config.daysToFetch,
+    initialDaysToFetch: config.initialDaysToFetch,
   });
 
   if (!validation.valid) {

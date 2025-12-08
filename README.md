@@ -111,8 +111,10 @@ Each monthly file contains hourly traffic data:
 
    ```
    TELRAAM_API_KEY=your_actual_api_key_here
-   # Optional: override days to fetch (clamped 1-90). Defaults to 31 locally, 3 in CI.
-   TELRAAM_DAYS_TO_FETCH=31
+   # Optional: override days to fetch for routine runs (clamped 1-90). Defaults to 3.
+   TELRAAM_DAYS_TO_FETCH=3
+   # Optional: backfill window when no data exists yet (clamped 1-90). Defaults to 90 days.
+   TELRAAM_INITIAL_DAYS_TO_FETCH=90
    ```
 
 5. Update device list in [src/config.ts](src/config.ts):
@@ -140,7 +142,7 @@ npm run collect
 This will:
 
 1. Build the TypeScript code
-2. Fetch data for the last N days for all configured devices (N defaults to `TELRAAM_DAYS_TO_FETCH` or 31 locally)
+2. Fetch data for the last N days for all configured devices (N defaults to `TELRAAM_DAYS_TO_FETCH`, default 3; new devices with no data fetch `TELRAAM_INITIAL_DAYS_TO_FETCH`, default 90)
 3. Merge new data with existing files (hourly and daily aggregates)
 4. Update device metadata
 
@@ -247,7 +249,7 @@ export const config = {
   apiUrl: 'https://telraam-api.net/v1/reports/traffic',
   apiKey: process.env.TELRAAM_API_KEY || '',
   dataDir: './docs/data',
-  daysToFetch: 31, // Number of days to fetch
+  daysToFetch: 3, // Number of days to fetch
 };
 ```
 

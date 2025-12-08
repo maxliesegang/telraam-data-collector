@@ -239,7 +239,7 @@ collectAllDevices()
    createSummary()
 ```
 
-**Date range**: Controlled by `TELRAAM_DAYS_TO_FETCH` (clamped 1–90). Defaults to 31 locally; CI workflow sets 3 for daily runs, with manual override via workflow input.
+**Date range**: Controlled by `TELRAAM_DAYS_TO_FETCH` (clamped 1–90, default 3). First-time runs without existing data use `TELRAAM_INITIAL_DAYS_TO_FETCH` (default 90) to backfill more history.
 
 **Daily aggregates**: After saving hourly monthly files, the collector also writes per-day totals under `docs/data/device_{id}/daily/{month}.json`.
 
@@ -251,6 +251,7 @@ interface CollectorConfig {
   storage: Storage;
   devices: DeviceConfig[];
   daysToFetch: number;
+  initialDaysToFetch: number;
 }
 ```
 

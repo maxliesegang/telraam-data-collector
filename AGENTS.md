@@ -4,7 +4,7 @@ This project runs a small set of automated agents to keep Telraam data fresh and
 
 ## Agent Roles
 
-- **Collector agent**: runs `npm run collect` to fetch the last N days (default 31 locally, 3 in CI) for all configured devices, merge data, and write hourly + daily JSON files under `docs/data/`. Uses modular service architecture for improved reliability and maintainability.
+- **Collector agent**: runs `npm run collect` to fetch the last N days (default 3; first run without data uses `TELRAAM_INITIAL_DAYS_TO_FETCH`, default 90) for all configured devices, merge data, and write hourly + daily JSON files under `docs/data/`. Uses modular service architecture for improved reliability and maintainability.
 - **Scheduler agent**: GitHub Actions workflow triggers the collector daily. It injects `TELRAAM_API_KEY` from repo secrets and clamps `TELRAAM_DAYS_TO_FETCH` to 3 by default to keep runs fast.
 - **Maintenance agent**: human-in-the-loop tasks such as updating `src/config.ts` with device lists, refreshing the OpenAPI spec in `api-spec/telraam-openapi.yaml`, or rotating secrets.
 
@@ -23,7 +23,7 @@ This modular design improves testability, maintainability, and makes it easier t
 
 ## Inputs & Outputs
 
-- **Inputs**: `TELRAAM_API_KEY` (required), `TELRAAM_DAYS_TO_FETCH` (optional override, 1–90), device list in `src/config.ts`, OpenAPI spec in `api-spec/`.
+- **Inputs**: `TELRAAM_API_KEY` (required), `TELRAAM_DAYS_TO_FETCH` (optional override, 1–90, default 3), `TELRAAM_INITIAL_DAYS_TO_FETCH` (optional initial backfill window, default 90), device list in `src/config.ts`, OpenAPI spec in `api-spec/`.
 - **Outputs**: monthly hourly files `docs/data/device_{id}/{YYYY-MM}.json`, daily aggregates `docs/data/device_{id}/daily/{YYYY-MM}.json`, metadata `docs/data/devices.json`, and an auto-generated landing page `docs/index.html` listing all JSON downloads.
 
 ## Safety & Constraints
