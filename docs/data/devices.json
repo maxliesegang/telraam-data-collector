@@ -3,15 +3,15 @@
     "id": "9000008311",
     "name": "Sophienstraße",
     "location": "Karlsruhe, Germany",
-    "lastUpdated": "2025-12-19T02:00:00.000Z",
-    "totalDataPoints": 2448
+    "lastUpdated": "2025-12-20T02:00:00.000Z",
+    "totalDataPoints": 2472
   },
   {
     "id": "9000008322",
     "name": "Georg-Friedrich-Straße",
     "location": "Karlsruhe, Germany",
-    "lastUpdated": "2025-12-19T02:00:00.000Z",
-    "totalDataPoints": 1874
+    "lastUpdated": "2025-12-20T02:00:00.000Z",
+    "totalDataPoints": 1898
   },
   {
     "id": "9000008891",
@@ -24,7 +24,7 @@
     "id": "9000008652",
     "name": "Telraam 9000008652",
     "location": "Rheinstetten, Germany",
-    "lastUpdated": "2025-12-19T02:00:00.000Z",
-    "totalDataPoints": 1816
+    "lastUpdated": "2025-12-20T02:00:00.000Z",
+    "totalDataPoints": 1840
   }
 ]
