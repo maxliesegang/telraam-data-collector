@@ -1,0 +1,29 @@
+{
+  "device_id": "9000008652",
+  "month": "2026-01",
+  "days": [
+    {
+      "date": "2026-01-01",
+      "totals": {
+        "hours": 3,
+        "heavy": 0,
+        "car": 0,
+        "bike": 0,
+        "pedestrian": 0,
+        "night": 5,
+        "heavy_lft": 0,
+        "heavy_rgt": 0,
+        "car_lft": 0,
+        "car_rgt": 0,
+        "bike_lft": 0,
+        "bike_rgt": 0,
+        "pedestrian_lft": 0,
+        "pedestrian_rgt": 0,
+        "night_lft": 2,
+        "night_rgt": 3,
+        "uptime_avg": 0.9993518518333334
+      }
+    }
+  ],
+  "lastUpdated": "2026-01-01T03:51:52.689Z"
+}
