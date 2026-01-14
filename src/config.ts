@@ -47,8 +47,8 @@ export const devices: DeviceConfig[] = [
     location: 'Rheinstetten, Germany',
   },
   {
-    id: '9000008652',
-    name: 'Telraam 9000008652',
+    id: '9000010417',
+    name: 'Telraam 9000010417',
     location: 'Rheinstetten, Germany',
   },
 ];
