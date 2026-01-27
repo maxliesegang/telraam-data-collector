@@ -42,13 +42,18 @@ export const devices: DeviceConfig[] = [
     location: 'Karlsruhe, Germany',
   },
   {
+    id: ' 9000010473',
+    name: 'Telraam ber.123 9000010473',
+    location: 'Karlsruhe, Germany',
+  },
+  {
     id: '9000008891',
     name: 'Telraam 9000008891',
     location: 'Rheinstetten, Germany',
   },
   {
     id: '9000010417',
-    name: 'Telraam 9000010417',
+    name: 'Telraam v2 AKMV 9000010417',
     location: 'Rheinstetten, Germany',
   },
 ];
