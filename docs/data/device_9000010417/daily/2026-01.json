@@ -401,12 +401,12 @@
     {
       "date": "2026-01-31",
       "totals": {
-        "hours": 24,
+        "hours": 19,
         "heavy": 233,
         "car": 1131,
         "bike": 148,
         "pedestrian": 338,
-        "night": 655,
+        "night": 572,
         "heavy_lft": 90,
         "heavy_rgt": 143,
         "car_lft": 583,
@@ -415,11 +415,11 @@
         "bike_rgt": 92,
         "pedestrian_lft": 145,
         "pedestrian_rgt": 193,
-        "night_lft": 309,
-        "night_rgt": 346,
-        "uptime_avg": 0.9993865740541671
+        "night_lft": 264,
+        "night_rgt": 308,
+        "uptime_avg": 0.9994005847736843
       }
     }
   ],
-  "lastUpdated": "2026-02-02T04:25:45.099Z"
+  "lastUpdated": "2026-02-03T04:16:16.464Z"
 }
