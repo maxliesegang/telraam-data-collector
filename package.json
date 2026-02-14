@@ -3,10 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "npm run generate-types && tsc",
     "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts",
+    "dev": "tsx src/index.ts",
     "collect": "npm run build && npm start",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -14,15 +17,15 @@
     "generate-types:watch": "openapi-typescript api-spec/telraam-openapi.yaml -o src/generated/telraam-api.ts --watch"
   },
   "devDependencies": {
-    "@types/node": "^22.10.2",
-    "openapi-typescript": "^7.4.4",
-    "prettier": "^3.4.2",
-    "typescript": "~5.9.3",
-    "vite": "^7.2.4"
+    "@types/node": "^22.19.11",
+    "openapi-typescript": "^7.13.0",
+    "prettier": "^3.8.1",
+    "tsx": "^4.21.0",
+    "typescript": "~5.9.3"
   },
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "openapi-typescript-fetch": "^2.0.0",
-    "winston": "^3.18.3"
+    "dotenv": "^17.3.1",
+    "openapi-typescript-fetch": "^2.2.1",
+    "winston": "^3.19.0"
   }
 }

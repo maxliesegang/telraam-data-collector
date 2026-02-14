@@ -82,7 +82,7 @@ Each monthly file contains hourly traffic data:
 
 ### Prerequisites
 
-- Node.js 20 or higher
+- Node.js 22 or higher
 - npm
 - Telraam API key ([get one here](https://telraam.net/en/users/settings))
 
