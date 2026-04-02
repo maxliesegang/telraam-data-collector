@@ -643,12 +643,12 @@
     {
       "date": "2026-03-30",
       "totals": {
-        "hours": 24,
+        "hours": 19,
         "heavy": 514,
         "car": 1628,
         "bike": 155,
         "pedestrian": 209,
-        "night": 385,
+        "night": 243,
         "heavy_lft": 215,
         "heavy_rgt": 299,
         "car_lft": 842,
@@ -657,9 +657,9 @@
         "bike_rgt": 95,
         "pedestrian_lft": 78,
         "pedestrian_rgt": 131,
-        "night_lft": 191,
-        "night_rgt": 194,
-        "uptime_avg": 0.9994907407166668
+        "night_lft": 117,
+        "night_rgt": 126,
+        "uptime_avg": 0.9994883040684212
       }
     },
     {
@@ -685,5 +685,5 @@
       }
     }
   ],
-  "lastUpdated": "2026-04-01T04:48:00.262Z"
+  "lastUpdated": "2026-04-02T04:31:04.147Z"
 }
