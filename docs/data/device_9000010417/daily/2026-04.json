@@ -27,12 +27,34 @@
     {
       "date": "2026-04-02",
       "totals": {
+        "hours": 24,
+        "heavy": 485,
+        "car": 1885,
+        "bike": 308,
+        "pedestrian": 370,
+        "night": 389,
+        "heavy_lft": 243,
+        "heavy_rgt": 242,
+        "car_lft": 992,
+        "car_rgt": 893,
+        "bike_lft": 105,
+        "bike_rgt": 203,
+        "pedestrian_lft": 142,
+        "pedestrian_rgt": 228,
+        "night_lft": 185,
+        "night_rgt": 204,
+        "uptime_avg": 0.999432870341667
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "totals": {
         "hours": 4,
         "heavy": 0,
         "car": 0,
         "bike": 0,
         "pedestrian": 0,
-        "night": 51,
+        "night": 38,
         "heavy_lft": 0,
         "heavy_rgt": 0,
         "car_lft": 0,
@@ -41,11 +63,11 @@
         "bike_rgt": 0,
         "pedestrian_lft": 0,
         "pedestrian_rgt": 0,
-        "night_lft": 25,
-        "night_rgt": 26,
-        "uptime_avg": 0.999374999975
+        "night_lft": 18,
+        "night_rgt": 20,
+        "uptime_avg": 0.99930555555
       }
     }
   ],
-  "lastUpdated": "2026-04-02T04:31:04.149Z"
+  "lastUpdated": "2026-04-03T04:31:11.042Z"
 }
