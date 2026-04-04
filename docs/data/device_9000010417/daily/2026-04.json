@@ -5,23 +5,23 @@
     {
       "date": "2026-04-01",
       "totals": {
-        "hours": 24,
-        "heavy": 465,
-        "car": 1609,
+        "hours": 19,
+        "heavy": 458,
+        "car": 1601,
         "bike": 301,
-        "pedestrian": 328,
-        "night": 404,
-        "heavy_lft": 228,
-        "heavy_rgt": 237,
-        "car_lft": 834,
+        "pedestrian": 327,
+        "night": 262,
+        "heavy_lft": 223,
+        "heavy_rgt": 235,
+        "car_lft": 826,
         "car_rgt": 775,
         "bike_lft": 124,
         "bike_rgt": 177,
-        "pedestrian_lft": 127,
+        "pedestrian_lft": 126,
         "pedestrian_rgt": 201,
-        "night_lft": 194,
-        "night_rgt": 210,
-        "uptime_avg": 0.9995717592375001
+        "night_lft": 111,
+        "night_rgt": 151,
+        "uptime_avg": 0.9995614034842107
       }
     },
     {
@@ -49,12 +49,34 @@
     {
       "date": "2026-04-03",
       "totals": {
+        "hours": 24,
+        "heavy": 175,
+        "car": 668,
+        "bike": 243,
+        "pedestrian": 293,
+        "night": 311,
+        "heavy_lft": 68,
+        "heavy_rgt": 107,
+        "car_lft": 350,
+        "car_rgt": 318,
+        "bike_lft": 120,
+        "bike_rgt": 123,
+        "pedestrian_lft": 108,
+        "pedestrian_rgt": 185,
+        "night_lft": 149,
+        "night_rgt": 162,
+        "uptime_avg": 0.9993749999791671
+      }
+    },
+    {
+      "date": "2026-04-04",
+      "totals": {
         "hours": 4,
         "heavy": 0,
         "car": 0,
         "bike": 0,
         "pedestrian": 0,
-        "night": 38,
+        "night": 45,
         "heavy_lft": 0,
         "heavy_rgt": 0,
         "car_lft": 0,
@@ -63,11 +85,11 @@
         "bike_rgt": 0,
         "pedestrian_lft": 0,
         "pedestrian_rgt": 0,
-        "night_lft": 18,
-        "night_rgt": 20,
-        "uptime_avg": 0.99930555555
+        "night_lft": 21,
+        "night_rgt": 24,
+        "uptime_avg": 0.9995138888749999
       }
     }
   ],
-  "lastUpdated": "2026-04-03T04:31:11.042Z"
+  "lastUpdated": "2026-04-04T04:19:52.822Z"
 }
