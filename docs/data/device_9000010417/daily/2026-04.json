@@ -93,23 +93,23 @@
     {
       "date": "2026-04-05",
       "totals": {
-        "hours": 24,
-        "heavy": 143,
-        "car": 715,
+        "hours": 19,
+        "heavy": 142,
+        "car": 714,
         "bike": 222,
-        "pedestrian": 209,
-        "night": 294,
+        "pedestrian": 208,
+        "night": 234,
         "heavy_lft": 73,
-        "heavy_rgt": 70,
+        "heavy_rgt": 69,
         "car_lft": 370,
-        "car_rgt": 345,
+        "car_rgt": 344,
         "bike_lft": 92,
         "bike_rgt": 130,
         "pedestrian_lft": 65,
-        "pedestrian_rgt": 144,
-        "night_lft": 145,
-        "night_rgt": 149,
-        "uptime_avg": 0.9994328703500003
+        "pedestrian_rgt": 143,
+        "night_lft": 114,
+        "night_rgt": 120,
+        "uptime_avg": 0.999459064305263
       }
     },
     {
@@ -137,12 +137,34 @@
     {
       "date": "2026-04-07",
       "totals": {
+        "hours": 24,
+        "heavy": 420,
+        "car": 1477,
+        "bike": 315,
+        "pedestrian": 342,
+        "night": 332,
+        "heavy_lft": 201,
+        "heavy_rgt": 219,
+        "car_lft": 819,
+        "car_rgt": 658,
+        "bike_lft": 112,
+        "bike_rgt": 203,
+        "pedestrian_lft": 139,
+        "pedestrian_rgt": 203,
+        "night_lft": 166,
+        "night_rgt": 166,
+        "uptime_avg": 0.9993981481291668
+      }
+    },
+    {
+      "date": "2026-04-08",
+      "totals": {
         "hours": 4,
         "heavy": 0,
         "car": 0,
         "bike": 0,
         "pedestrian": 0,
-        "night": 59,
+        "night": 66,
         "heavy_lft": 0,
         "heavy_rgt": 0,
         "car_lft": 0,
@@ -151,11 +173,11 @@
         "bike_rgt": 0,
         "pedestrian_lft": 0,
         "pedestrian_rgt": 0,
-        "night_lft": 27,
-        "night_rgt": 32,
-        "uptime_avg": 0.999374999975
+        "night_lft": 31,
+        "night_rgt": 35,
+        "uptime_avg": 0.99930555555
       }
     }
   ],
-  "lastUpdated": "2026-04-07T04:34:59.904Z"
+  "lastUpdated": "2026-04-08T04:38:08.299Z"
 }
