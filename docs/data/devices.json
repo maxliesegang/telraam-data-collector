@@ -10,8 +10,8 @@
     "id": "9000008322",
     "name": "Georg-Friedrich-Straße",
     "location": "Karlsruhe, Germany",
-    "lastUpdated": "2026-04-08T03:00:00.000Z",
-    "totalDataPoints": 4479
+    "lastUpdated": "2026-04-09T03:00:00.000Z",
+    "totalDataPoints": 4503
   },
   {
     "id": "9000010473",
@@ -31,7 +31,7 @@
     "id": "9000010417",
     "name": "Telraam v2 AKMV 9000010417",
     "location": "Rheinstetten, Germany",
-    "lastUpdated": "2026-04-08T03:00:00.000Z",
-    "totalDataPoints": 2022
+    "lastUpdated": "2026-04-09T03:00:00.000Z",
+    "totalDataPoints": 2046
   }
 ]
