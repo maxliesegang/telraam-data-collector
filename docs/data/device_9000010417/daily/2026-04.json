@@ -159,23 +159,23 @@
     {
       "date": "2026-04-08",
       "totals": {
-        "hours": 24,
-        "heavy": 383,
-        "car": 1316,
-        "bike": 317,
+        "hours": 19,
+        "heavy": 374,
+        "car": 1298,
+        "bike": 316,
         "pedestrian": 292,
-        "night": 352,
-        "heavy_lft": 205,
-        "heavy_rgt": 178,
-        "car_lft": 731,
-        "car_rgt": 585,
-        "bike_lft": 102,
+        "night": 239,
+        "heavy_lft": 202,
+        "heavy_rgt": 172,
+        "car_lft": 719,
+        "car_rgt": 579,
+        "bike_lft": 101,
         "bike_rgt": 215,
         "pedestrian_lft": 102,
         "pedestrian_rgt": 190,
-        "night_lft": 164,
-        "night_rgt": 188,
-        "uptime_avg": 0.9993749999875
+        "night_lft": 107,
+        "night_rgt": 132,
+        "uptime_avg": 0.9994005847789474
       }
     },
     {
@@ -203,12 +203,34 @@
     {
       "date": "2026-04-10",
       "totals": {
+        "hours": 24,
+        "heavy": 464,
+        "car": 1635,
+        "bike": 313,
+        "pedestrian": 385,
+        "night": 407,
+        "heavy_lft": 205,
+        "heavy_rgt": 259,
+        "car_lft": 818,
+        "car_rgt": 817,
+        "bike_lft": 140,
+        "bike_rgt": 173,
+        "pedestrian_lft": 142,
+        "pedestrian_rgt": 243,
+        "night_lft": 203,
+        "night_rgt": 204,
+        "uptime_avg": 0.9996180555333334
+      }
+    },
+    {
+      "date": "2026-04-11",
+      "totals": {
         "hours": 4,
         "heavy": 0,
         "car": 0,
         "bike": 0,
         "pedestrian": 0,
-        "night": 61,
+        "night": 52,
         "heavy_lft": 0,
         "heavy_rgt": 0,
         "car_lft": 0,
@@ -217,11 +239,11 @@
         "bike_rgt": 0,
         "pedestrian_lft": 0,
         "pedestrian_rgt": 0,
-        "night_lft": 29,
-        "night_rgt": 32,
-        "uptime_avg": 0.9998611111
+        "night_lft": 26,
+        "night_rgt": 26,
+        "uptime_avg": 0.99979166665
       }
     }
   ],
-  "lastUpdated": "2026-04-10T04:48:20.767Z"
+  "lastUpdated": "2026-04-11T04:23:04.423Z"
 }
