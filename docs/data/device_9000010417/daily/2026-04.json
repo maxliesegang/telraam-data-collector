@@ -291,23 +291,23 @@
     {
       "date": "2026-04-14",
       "totals": {
-        "hours": 24,
-        "heavy": 487,
-        "car": 1754,
-        "bike": 414,
-        "pedestrian": 505,
-        "night": 316,
-        "heavy_lft": 242,
-        "heavy_rgt": 245,
-        "car_lft": 856,
-        "car_rgt": 898,
-        "bike_lft": 197,
-        "bike_rgt": 217,
-        "pedestrian_lft": 182,
+        "hours": 19,
+        "heavy": 471,
+        "car": 1726,
+        "bike": 411,
+        "pedestrian": 502,
+        "night": 219,
+        "heavy_lft": 234,
+        "heavy_rgt": 237,
+        "car_lft": 840,
+        "car_rgt": 886,
+        "bike_lft": 196,
+        "bike_rgt": 215,
+        "pedestrian_lft": 179,
         "pedestrian_rgt": 323,
-        "night_lft": 159,
-        "night_rgt": 157,
-        "uptime_avg": 0.999421296275
+        "night_lft": 109,
+        "night_rgt": 110,
+        "uptime_avg": 0.9994298245421053
       }
     },
     {
@@ -335,12 +335,34 @@
     {
       "date": "2026-04-16",
       "totals": {
+        "hours": 24,
+        "heavy": 496,
+        "car": 1747,
+        "bike": 504,
+        "pedestrian": 485,
+        "night": 303,
+        "heavy_lft": 260,
+        "heavy_rgt": 236,
+        "car_lft": 887,
+        "car_rgt": 860,
+        "bike_lft": 224,
+        "bike_rgt": 280,
+        "pedestrian_lft": 168,
+        "pedestrian_rgt": 317,
+        "night_lft": 144,
+        "night_rgt": 159,
+        "uptime_avg": 0.9995254629416664
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "totals": {
         "hours": 4,
         "heavy": 0,
         "car": 0,
         "bike": 0,
         "pedestrian": 0,
-        "night": 58,
+        "night": 59,
         "heavy_lft": 0,
         "heavy_rgt": 0,
         "car_lft": 0,
@@ -349,11 +371,11 @@
         "bike_rgt": 0,
         "pedestrian_lft": 0,
         "pedestrian_rgt": 0,
-        "night_lft": 27,
-        "night_rgt": 31,
-        "uptime_avg": 0.999375
+        "night_lft": 31,
+        "night_rgt": 28,
+        "uptime_avg": 0.9998611111
       }
     }
   ],
-  "lastUpdated": "2026-04-16T04:52:11.363Z"
+  "lastUpdated": "2026-04-17T04:49:49.083Z"
 }
