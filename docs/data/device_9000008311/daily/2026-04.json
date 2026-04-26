@@ -1,0 +1,45 @@
+{
+  "device_id": "9000008311",
+  "month": "2026-04",
+  "days": [
+    {
+      "date": "2026-04-25",
+      "totals": {
+        "hours": 17,
+        "heavy": 217.8557447439,
+        "car": 1401.7633634585,
+        "bike": 1990.5519621738003,
+        "pedestrian": 45.056662189399994,
+        "heavy_lft": 13.7343443207,
+        "heavy_rgt": 204.1214004233,
+        "car_lft": 997.9029572026001,
+        "car_rgt": 403.86040625609996,
+        "bike_lft": 1194.6750996655999,
+        "bike_rgt": 795.8768625082,
+        "pedestrian_lft": 30.6764354739,
+        "pedestrian_rgt": 14.380226715400001,
+        "uptime_avg": 0.45645424837647064
+      }
+    },
+    {
+      "date": "2026-04-26",
+      "totals": {
+        "hours": 4,
+        "heavy": 0,
+        "car": 0,
+        "bike": 0,
+        "pedestrian": 0,
+        "heavy_lft": 0,
+        "heavy_rgt": 0,
+        "car_lft": 0,
+        "car_rgt": 0,
+        "bike_lft": 0,
+        "bike_rgt": 0,
+        "pedestrian_lft": 0,
+        "pedestrian_rgt": 0,
+        "uptime_avg": 0
+      }
+    }
+  ],
+  "lastUpdated": "2026-04-26T05:12:29.216Z"
+}
