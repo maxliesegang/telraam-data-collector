@@ -347,22 +347,60 @@
     {
       "date": "2026-05-20",
       "totals": {
-        "hours": 20,
-        "heavy": 453.6503997342,
-        "car": 4850.4620854948,
-        "bike": 2211.7162699224,
-        "pedestrian": 147.36964104380004,
-        "heavy_lft": 237.83265603619998,
-        "heavy_rgt": 215.81774369819996,
-        "car_lft": 2247.4301824259996,
-        "car_rgt": 2603.0319030690002,
-        "bike_lft": 1034.7619125836,
-        "bike_rgt": 1176.9543573387,
-        "pedestrian_lft": 86.7465401024,
-        "pedestrian_rgt": 60.62310094120001,
-        "uptime_avg": 0.5773750000000001
+        "hours": 14,
+        "heavy": 401.23101811659996,
+        "car": 4110.3890559321,
+        "bike": 1938.9326930031002,
+        "pedestrian": 130.4195667895,
+        "heavy_lft": 215.53390216399998,
+        "heavy_rgt": 185.69711595279998,
+        "car_lft": 1837.4480805427997,
+        "car_rgt": 2272.9409753895,
+        "bike_lft": 914.3760257485999,
+        "bike_rgt": 1024.5566672544999,
+        "pedestrian_lft": 71.0766934441,
+        "pedestrian_rgt": 59.342873345200005,
+        "uptime_avg": 0.7114285714357143
+      }
+    },
+    {
+      "date": "2026-05-22",
+      "totals": {
+        "hours": 1,
+        "heavy": 0,
+        "car": 0,
+        "bike": 0,
+        "pedestrian": 0,
+        "heavy_lft": 0,
+        "heavy_rgt": 0,
+        "car_lft": 0,
+        "car_rgt": 0,
+        "bike_lft": 0,
+        "bike_rgt": 0,
+        "pedestrian_lft": 0,
+        "pedestrian_rgt": 0,
+        "uptime_avg": 0
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "totals": {
+        "hours": 5,
+        "heavy": 7.5315669391,
+        "car": 89.6941253823,
+        "bike": 41.6681289729,
+        "pedestrian": 1.2765957447,
+        "heavy_lft": 3.7780898876,
+        "heavy_rgt": 3.7534770515,
+        "car_lft": 41.6983191363,
+        "car_rgt": 47.9958062459,
+        "bike_lft": 22.1381252387,
+        "bike_rgt": 19.5300037342,
+        "pedestrian_lft": 1.2765957447,
+        "pedestrian_rgt": 0,
+        "uptime_avg": 0.22283333332000002
       }
     }
   ],
-  "lastUpdated": "2026-05-22T06:08:31.682Z"
+  "lastUpdated": "2026-05-23T05:40:01.443Z"
 }
