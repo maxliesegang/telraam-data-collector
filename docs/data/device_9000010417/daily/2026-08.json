@@ -643,7 +643,7 @@
     {
       "date": "2026-08-30",
       "totals": {
-        "hours": 24,
+        "hours": 17,
         "heavy": 8,
         "car": 0,
         "bike": 0,
@@ -659,7 +659,7 @@
         "pedestrian_rgt": 0,
         "night_lft": 0,
         "night_rgt": 1,
-        "uptime_avg": 0.9995486110875001
+        "uptime_avg": 0.9995261437647059
       }
     },
     {
@@ -685,5 +685,5 @@
       }
     }
   ],
-  "lastUpdated": "2026-09-01T07:22:52.924Z"
+  "lastUpdated": "2026-09-02T06:52:36.958Z"
 }
